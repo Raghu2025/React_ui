@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    padding: 1rem;
+}
+
+.insidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-radius: 2rem;
+    gap: 0rem;
+}
+.insidenav>h1{
+    font-family: verdana;
+
+}
+hr{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.insidenav>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    font-size: 1.2rem;
+
+}
+
+#layout,#name,#capacity{
+    padding: 0.25rem 0.5rem;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    border:none;
+   
+}
+#image{
+    display: none;
+}
+.image{
+text-align: center;
+padding: 0.5rem 0.9rem;
+color: white;
+background-color: slategrey;
+border-radius: 20px;
+}
+
+.image:hover{
+padding: 0.6rem 1.1rem;
+
+}
+
+label{
+    font-size: 0.9rem;
+    font-family: verdana;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+.button>button,.but{
+border: none;
+outline: none;
+font-family: verdana;
+padding: 0.5rem 1rem;
+color: white;
+border-radius: 5px;
+font-size: 1rem;
+}
+button:hover{
+    transform: scale(1.05);
+}
+
+.b1{
+    background-color: rgb(8, 210, 65);
+}
+.b2{
+
+    background-color: rgb(243, 7, 7);
+}
+.sel{
+    display: flex;
+    flex-direction: row;
+    justify-content: startsss;
+    align-items: center; 
+}
+.bute{
+    background-color: green;
+}
+.butt{
+    background-color: red;
+}
